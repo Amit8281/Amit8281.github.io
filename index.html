@@ -4,7 +4,7 @@
   <title>Amit Kumar - Data Scientist</title>
   <style>
     body {
-      background-color: #f8f8f8;
+      background-color: #FFFDD0;
       font-family: Arial, sans-serif;
       color: #333;
       margin: 0;
@@ -73,16 +73,37 @@
     }
 
     .skills {
+      margin-top: 10px;
+    }
+
+    .skill-box {
       display: inline-block;
-      background-color: #ff7f50;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .skill {
       color: #fff;
       font-size: 14px;
       padding: 5px 10px;
-      margin-right: 10px;
-      margin-bottom: 10px;
       border-radius: 3px;
     }
 
+    .skill1 { background-color: #ff7f50; }
+    .skill2 { background-color: #3498db; }
+    .skill3 { background-color: #e74c3c; }
+    .skill4 { background-color: #2ecc71; }
+    .skill5 { background-color: #9b59b6; }
+    .skill6 { background-color: #f1c40f; }
+    .skill7 { background-color: #1abc9c; }
+    .skill8 { background-color: #f39c12; }
+    .skill9 { background-color: #27ae60; }
+
+    .project-section {
+      background-color: #f9f9f9;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -93,10 +114,10 @@
 
     <h2>Contact Me</h2>
     <ul>
-      <li>Email: <a href="mailto:ak15072419@gmail.com">ak15072419@gmail.com</a></li>
-      <li>Phone: 8279639443</li>
-      <li>GitHub: <a href="https://github.com/Amit8281">Amit8281</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/amit-kumar-86a43b1b7/">Amit Kumar</a></li>
+      <li><strong>Email:</strong> <a href="mailto:ak15072419@gmail.com">ak15072419@gmail.com</a></li>
+      <li><strong>Phone:</strong> 8279639443</li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/Amit8281">Amit8281</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amit-kumar-86a43b1b7/">Amit Kumar</a></li>
     </ul>
 
     <h2>Experience</h2>
@@ -108,32 +129,63 @@
       <li>Training and Implementation: Continuously updated knowledge in data science and machine learning techniques through independent learning and participation in relevant training programs.</li>
     </ul>
 
+    <!-- ... -->
+
     <h2>Skills</h2>
-    <div class="skills">Python</div>
-    <div class="skills">Statistics</div>
-    <div class="skills">Analysis and Visualization</div>
-    <div class="skills">Machine Learning</div>
-    <div class="skills">GitHub</div>
-    <div class="skills">Web Scraping</div>
+    <div class="skills">
+      <div class="skill-box">
+        <div class="skill skill1">Python Programming Language</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill2">Statistics</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill3">Analysis and Visualization using Python - Numpy, Pandas, Seaborn, Matplotlib</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill4">Excel</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill5">MySQL</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill6">MongoDB</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill7">Machine Learning (supervised & unsupervised learning)</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill8">GitHub</div>
+      </div>
+      <div class="skill-box">
+        <div class="skill skill9">Web Scraping</div>
+      </div>
+    </div>
 
     <h2>Projects</h2>
-    <h3>JPMorgan Chase Stock Price Prediction</h3>
-    <ul>
-      <li>Developed a tailored stock price prediction system for JPMorgan Chase.</li>
-      <li>Implemented machine learning, deep learning, and time series analysis algorithms to forecast future stock prices accurately.</li>
-      <li>Overcame market challenges by capturing intricate patterns and seasonality in historical stock price data.</li>
-      <li>Employed advanced techniques such as feature analysis and correlation exploration to uncover meaningful insights.</li>
-      <li>Deployed the system on Streamlit Cloud, enabling investors, financial analysts, and traders to make informed decisions and optimize their investment strategies.</li>
-      <li>GitHub Repository: <a href="https://github.com/Amit8281/JpMorganStockPrice">JpMorganStockPrice</a></li>
-    </ul>
+    <div class="project-section" style="background-color: #f9f9f9;">
+      <h3>JPMorgan Chase Stock Price Prediction</h3>
+      <ul>
+        <li>Developed a tailored stock price prediction system for JPMorgan Chase.</li>
+        <li>Implemented machine learning, deep learning, and time series analysis algorithms to forecast future stock prices accurately.</li>
+        <li>Overcame market challenges by capturing intricate patterns and seasonality in historical stock price data.</li>
+        <li>Employed advanced techniques such as feature analysis and correlation exploration to uncover meaningful insights.</li>
+        <li>Deployed the system on Streamlit Cloud, enabling investors, financial analysts, and traders to make informed decisions and optimize their investment strategies.</li>
+        <li>GitHub Repository: <a href="https://github.com/Amit8281/JpMorganStockPrice">JpMorganStockPrice</a></li>
+        <li>Video Demo: <video src="D:\CHROME DOWNLODE\video_20230526_185455_edit.mp4" controls width="800" height="450"></video></li>
+      </ul>
+    </div>
 
-    <h3>Book Recommendation System</h3>
-    <ul>
-      <li>Dataset Collection: A comprehensive dataset containing books and their ratings was collected from Kaggle. This dataset serves as the foundation for the recommender system.</li>
-      <li>K-means Clustering: The K-means clustering algorithm was utilized to group the books into clusters based on their ratings. This algorithm identifies similar patterns among books, allowing for more accurate recommendations within each cluster.</li>
-      <li>Recommendation Function: A user-friendly function was designed to accept a book title as input. Using the clustering results, this function retrieves the 5 most relevant books within the same cluster as the input book. These recommendations ensure that users receive suggestions based on their specific preferences and interests.</li>
-      <li>GitHub Repository: <a href="https://github.com/Amit8281/Books-Recommender-System">Books-Recommender-System</a></li>
-    </ul>
+    <div class="project-section" style="background-color: #f9f9f9;">
+      <h3>Book Recommendation System</h3>
+      <ul>
+        <li>Dataset Collection: A comprehensive dataset containing books and their ratings was collected from Kaggle. This dataset serves as the foundation for the recommender system.</li>
+        <li>K-means Clustering: The K-means clustering algorithm was utilized to group the books into clusters based on their ratings. This algorithm identifies similar patterns among books, allowing for more accurate recommendations within each cluster.</li>
+        <li>Recommendation Function: A user-friendly function was designed to accept a book title as input. Using the clustering results, this function retrieves the 5 most relevant books within the same cluster as the input book. These recommendations ensure that users receive suggestions based on their specific preferences and interests.</li>
+        <li>GitHub Repository: <a href="https://github.com/Amit8281/Books-Recommender-System">Books-Recommender-System</a></li>
+        <li>Video Demo: <video src="https://user-images.githubusercontent.com/115937880/241935070-af7175ee-d8db-4620-abcf-3dd0c0be7b9e.mp4" controls width="800" height="450"></video></li>
+      </ul>
+    </div>
 
     <h2>Education</h2>
     <p><strong>Bachelor of Science in Physics, Chemistry, and Maths</strong>, 2019 - 2023</p>
